@@ -1,0 +1,372 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.cont{
+    width:100%;
+    padding:0 60px;
+}
+.row{
+    display:flex;
+}
+.col-1{
+    width:8.33%;
+    padding:0 15px;
+}
+.col-2{
+    width:16.66%;
+    padding:0 15px;
+}
+.col-3{
+    width:25%;
+    padding:0 15px;
+}
+.col-4{
+    width:33.32%;
+    padding:0 15px;
+}
+.col-5{
+    width:41.65%;
+    padding:0 15px;
+}
+.col-6{
+    width:50%;
+    padding:0 15px;
+}
+.col-7{
+    width:58.31%;
+    padding:0 15px;
+}
+.col-8{
+    width:66.64%;
+    padding:0 15px;
+}
+.col-9{
+    width:75%;
+    padding:0 15px;
+}
+.col-10{
+    width:83.3%;
+    padding:0 15px;
+}
+.col-11{
+    width:91.63%;
+    padding:0 15px;
+}
+.col-12{
+    width:100%;
+    padding:0 15px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background:#ffff;
+    font-family: "Noto Sans" ,sans-serif;
+}
+.primary-color{
+    color: #003A40;
+}
+.primary-background{
+    background-color:;
+}
+.secondary-color{
+    color:;
+}
+.secondary-background{
+    background-color:;
+}
+.dark-text{
+    color:#000 !important;
+}
+.light-text{
+    color:#fff;
+}
+.light-bg{
+    color:#fff;
+}
+.weight-500{
+    font-weight: 500 !important;
+}
+.weight-600{
+    font-weight: 600 !important;
+}
+.weight-700{
+    font-weight: 700 !important;
+}
+.weight-800{
+    font-weight: 800 !important;
+}
+.weight-900{
+    font-weight: 900 !important;
+}
+img{
+    width:100%;
+}
+nav .col-12,
+section .col-12{
+    padding:0px;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 65px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(195, 191, 191, 0.25);
+}
+button:hover,
+li>a:hover{
+    scale:1.1;
+}
+button{
+    padding: 10px 23px;
+    border-radius: 26px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    transition: ease 0.3;
+}
+.request{
+    background: #FF7217;
+    color:#fff;
+    font-size:12px;
+}
+.start{
+    background: #087D88;
+    color:#fff;
+    font-size:12px;
+}
+.use-case .hero-text .start{
+    background: #fff;
+    color:#003A40;
+    font-size:20px;
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.nav-links .list{
+    gap:34px;
+}
+.nav-bottom{
+    padding-left:75px;
+    padding-bottom:65px;
+    padding-top:23px;
+}
+.hero{
+    position:relative;
+    padding:0px;
+}
+.hero-description{
+    position:absolute;
+    top:53px;
+    left:70px;
+}
+.title{
+    font-family: "Inter";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1.28px;
+}
+.subtitle{
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.hero-text button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.706px;
+    margin-top:23px;
+}
+.text-center{
+    text-align:center;
+}
+.explore{
+    padding-top:100px;
+    padding-bottom:92px;
+}
+.explore-img{
+    margin-top:79px;
+    padding:40px;
+}
+.data{
+    background-color:#EEF7F6;
+    padding-top:38px;
+    padding-bottom:88px;
+    padding-left:74px;
+    padding-right:31px;
+}
+.data-bottom .list{
+    margin-top:29px;
+}
+.data-bottom{
+    gap:82px;
+    margin-top:65px;
+
+}
+.data-bottom-right .list ul{
+    list-style-image: url(images/list-style.png);
+}
+.data-bottom-right .list li{
+    margin:20px 0;
+}
+.data-bottom-right .list{
+    padding-left:20px;
+}
+.data-bottom-right .subtitle{
+    padding-right:178px;
+}
+.trust{
+    padding-top:44px;
+}
+.trust .trust-top{
+    width:66%;
+    margin:0 auto;
+}
+.trust .trust-top .title{
+    margin-bottom:29px;
+}
+.trust .trust-bottom{
+    margin-top:50px;
+    padding-left:37px;
+    padding-right:27px;
+    gap:137px;
+}
+.trust .trust-bottom li{
+    margin:20px 0;
+}
+.questions{
+    padding-top:92px;
+    margin-bottom:269px;
+}
+.questions-mid{
+    border-radius: 10px;
+    border: 1px solid #EEF3F7;
+    background: #EEF7F6;
+    margin-top:122px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:60px;
+}
+.question{
+    padding:20px;
+    border: 1px solid #B3DBD6;
+    border-radius:10px;
+    margin-top:40px;
+}
+.question-bottom{
+    width:65%;
+    margin:0 auto;
+}
+.footer{
+    background: #EEF3F7;
+    padding-bottom:125px;
+    position:relative;
+    padding-top:234px;
+}
+.footer-top{
+    background:#FF7217;
+    padding:68px 0px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin:0px auto;
+    position:absolute;
+    transform: translate(10%,-50%);
+    top:0%;
+}
+.titl{
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom:23px;
+}
+.sub{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.footer-top button{
+    margin:0 auto;
+    margin-top:50px;
+    width:auto;
+}
+.footer-bottom{
+    margin-top:75px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about-link  li a{
+    text-decoration: none;
+    color:#000;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+}
+.about-link  li{
+    list-style-type: none;
+    margin:20px 0;
+}
+.abouts{
+    gap:100px;
+}
+
+/* use case */
+
+.card-img-text .card-img,
+.card-text-img .card-img{
+    border-radius: 30px;
+}
+.card-img-text,
+.card-text-img{
+    margin-bottom:85px;
+}
+.last{
+    margin-bottom:250px;
+}
+.card-img-text,
+.card-text-img{
+    align-items:center;
+    justify-content: space-around;
+}
+.card-img-text .card-text,
+.card-text-img .card-text{
+    width:36%;
+}
+.card-img-text .card-text .title,
+.card-text-img .card-text .title{
+    margin-bottom:50px;
+}
+.card-img-text .card-img,
+.card-text-img .card-img{
+    width:44%;
+}
